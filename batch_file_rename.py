@@ -11,11 +11,11 @@ import getopt
 
 def usage():
     print 'batch_file_rename.py usage:'
-    print '-h, --help: print help message.'
+    print '-h, --help: print help message'
     print '-v, --version: print script version'
-    print '-w, --workdir: The dir of files that you want to rename.'
-    print '-o, --oldext: The extension of files that you want to rename.'
-    print '-n, --newext: The extension of files that you want to rename to.'
+    print '-w, --workdir: the dir of files that you want to rename'
+    print '-o, --oldext: the extension of files that you want to rename, for example .txt'
+    print '-n, --newext: the extension of files that you want to rename to, for example .csv'
     
 def version():
     print 'batch_file_rename.py 0.0.1'
