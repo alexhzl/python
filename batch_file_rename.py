@@ -22,7 +22,7 @@ def version():
     
 def main(argv):
     try:
-        opts, args = getopt.getopt(argv[1:], 'hvwon:')
+        opts, args = getopt.getopt(argv[1:], 'hvw:o:n:')
     except getopt.GetoptError, err:
         print str(err)
         usage()
