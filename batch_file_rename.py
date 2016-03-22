@@ -34,11 +34,11 @@ def main(argv):
         elif o in ('-v', '--version'):
             version()
             sys.exit(0)
-        elif o in ('-w',):
+        elif o in ('-w', '--workdir'):
             workdir = a
-        elif o in ('-o',):
+        elif o in ('-o', '--oldext'):
             oldext = a
-        elif o in ('-n',):
+        elif o in ('-n', '--newext'):
             newext = a
         else:
             print 'unhandled option'
